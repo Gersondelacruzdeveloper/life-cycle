@@ -20,7 +20,6 @@ export class CompWillUnMountChild extends Component {
     }
     componentDidMount(){
       console.log('componentDidMount called')
-
       window.addEventListener('mousemove', this.trackMouse)
     }
 
